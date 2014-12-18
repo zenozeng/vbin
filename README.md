@@ -8,6 +8,54 @@ Provider: virtualbox
 
 Base Box: ubuntu/trusty64
 
+## Packages installed by default
+
+### Network
+
+- ssh
+
+- rsync
+
+- dig
+
+- wget
+
+- curl
+
+- shadowsocks (nodejs)
+
+- proxychains
+
+### Node.JS
+
+- nodejs
+
+- npm
+
+- cnpm
+
+- coffee
+
+- lessc
+
+- gulp
+
+### Ruby & Python
+
+- python3
+
+- pip (豆瓣源)
+
+- ruby
+
+- gem (淘宝源)
+
+### General
+
+- emacs-nox
+
+- pandoc
+
 ## Install
 
 ### Install Virtualbox
