@@ -8,6 +8,8 @@ Provider: virtualbox
 
 Base Box: ubuntu/trusty64
 
+Mirrors: http://mirrors.zju.edu.cn/
+
 ## Packages installed by default
 
 ### Network
