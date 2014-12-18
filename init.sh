@@ -26,12 +26,15 @@ apt-get install --yes rsync dnsutils wget curl aria2 proxychains
 
 
 echo "[ Install Python3 ]"
+
 apt-get install --yes python3 python3-pip
 
 
 echo "[ Install Ruby 2.0 & Gem Packages ]"
+
 apt-get install --yes ruby2.0 ruby2.0-dev
 
 
 echo "[ Install General Packages ]"
+
 apt-get install --yes emacs24-nox pandoc
