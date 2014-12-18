@@ -2,6 +2,8 @@
 
 Living in other OS from the comfort of Linux tools, using vagrant, for Chinese users.
 
+Vbin only provide binaries. Config files are still in your home.
+
 ## Basic Info
 
 Provider: virtualbox
@@ -63,6 +65,8 @@ Mirrors: http://mirrors.zju.edu.cn/
 - emacs-nox
 
 - pandoc
+
+- zsh
 
 ## Install
 

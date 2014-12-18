@@ -37,4 +37,4 @@ apt-get install --yes ruby2.0 ruby2.0-dev
 
 echo "[ Install General Packages ]"
 
-apt-get install --yes emacs24-nox pandoc
+apt-get install --yes emacs24-nox pandoc zsh
