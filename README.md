@@ -58,8 +58,6 @@ Mirrors: http://mirrors.zju.edu.cn/
 
 - gem
 
-- jekyll
-
 ### General
 
 - emacs-nox
