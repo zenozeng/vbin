@@ -20,6 +20,8 @@ Mirrors: http://mirrors.zju.edu.cn/
 
 - dig
 
+- aria2
+
 - wget
 
 - curl
@@ -46,11 +48,15 @@ Mirrors: http://mirrors.zju.edu.cn/
 
 - python3
 
-- pip (豆瓣源)
+- python3-pip
 
-- ruby
+- ruby2.1
 
-- gem (淘宝源)
+- ruby2.1-dev
+
+- gem
+
+- jekyll
 
 ### General
 
@@ -94,6 +100,15 @@ vagrant up
 vagrant ssh
 ```
 
+## FAQ
+
+### reload init.sh
+
+```bash
+vagrant reload --provision
+```
+
 ## License
 
 GPLv2
+
