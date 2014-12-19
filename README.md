@@ -38,13 +38,13 @@ Mirrors: http://mirrors.zju.edu.cn/
 
 - npm
 
-- cnpm
+- cnpm (npm.sh)
 
-- coffee
+- coffee (npm.sh)
 
-- lessc
+- lessc (npm.sh)
 
-- gulp
+- gulp (npm.sh)
 
 ### Ruby & Python
 

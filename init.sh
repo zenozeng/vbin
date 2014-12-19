@@ -2,6 +2,13 @@ echo "[ VBIN Init Script ]"
 echo "[ UID: $UID ]"
 
 
+echo "[ Disable IPv6 ]"
+echo "net.ipv6.conf.all.disable_ipv6 = 1 \
+net.ipv6.conf.default.disable_ipv6 = 1 \
+net.ipv6.conf.lo.disable_ipv6 = 1" >> /etc/sysctl.conf
+sysctl -p
+
+
 echo "[ Setting up mirrors ]"
 
 cat /vagrant/sources.list > /etc/apt/sources.list
@@ -32,9 +39,3 @@ echo "[ Install Node.JS & NPM Packages ]"
 
 apt-get install --yes nodejs npm
 ln -s /usr/bin/nodejs /usr/bin/node
-npm install -g cnpm --registry=http://registry.npm.taobao.org -dd
-
-cnpm install -g coffee-script -dd
-cnpm install -g less -dd
-cnpm install -g gulp -dd
-cnpm install -g shadowsocks -dd
