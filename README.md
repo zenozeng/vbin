@@ -113,6 +113,14 @@ vagrant ssh
 vagrant reload --provision
 ```
 
+## Terminal?
+
+Try conemu.
+
+```bash
+cd /d D:
+```
+
 ## License
 
 GPLv2
