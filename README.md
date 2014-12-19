@@ -66,6 +66,8 @@ Mirrors: http://mirrors.zju.edu.cn/
 
 - zsh
 
+- git
+
 ## Install
 
 ### Install Virtualbox

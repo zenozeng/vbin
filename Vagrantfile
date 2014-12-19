@@ -20,8 +20,11 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   end
 
   # Port forwarding
-  (8000..8010).each do |port|
-    config.vm.network "forwarded_port", guest: port, host: port
+  (10000..10020).each do |port|
+    config.vm.network "forwarded_port",
+                      guest: port,
+                      host: port,
+                      auto_correct: true # auto correct any collisions
   end
 
 end
