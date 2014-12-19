@@ -12,11 +12,9 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.provision :shell, path: "init.sh"
 
   config.vm.provider "virtualbox" do |vb|
-    # boot with headless mode
     vb.gui = false
-
-    # Use VBoxManage to customize the VM. For example to change memory:
-    vb.customize ["modifyvm", :id, "--memory", "256"]
+    vb.name = "VBIN"
+    vb.memory = 256
   end
 
   # Port forwarding
