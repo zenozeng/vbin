@@ -27,4 +27,9 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
                       auto_correct: true # auto correct any collisions
   end
 
+  # SSH
+  config.ssh.username = "vagrant"
+  config.ssh.password = "vagrant"
+  config.ssh.insert_key = false
+
 end

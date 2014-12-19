@@ -94,7 +94,8 @@ or Install form manually downloaded .box
 Download: https://vagrantcloud.com/ubuntu/boxes/trusty64/versions/14.04/providers/virtualbox.box
 
 ```bash
-vagrant box add ubuntu/trusty64 path/to/your/file.box
+cd D:\
+vagrant box add ubuntu/trusty64 .\path\to\your\file.box
 ```
 
 ## Usage
